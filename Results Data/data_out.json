@@ -1,0 +1,298 @@
+{
+    "Resnick_Cos": {
+        "minimum_similarity": [
+            {
+                "Time": 345.4246211051941, 
+                "Coverage": 0.99859, 
+                "RMSE": 1.0117680426285922
+            }, 
+            {
+                "Minimum Similarity": 0.15, 
+                "Time": 219.15435886383057, 
+                "Coverage": 0.99807, 
+                "RMSE": 1.0094621226492606
+            }, 
+            {
+                "Minimum Similarity": 0.3, 
+                "Time": 100.92263102531433, 
+                "Coverage": 0.98342, 
+                "RMSE": 1.0078725340478425
+            }, 
+            {
+                "Minimum Similarity": 0.44999999999999996, 
+                "Time": 42.680068016052246, 
+                "Coverage": 0.79649, 
+                "RMSE": 1.0215409864351541
+            }, 
+            {
+                "Minimum Similarity": 0.6, 
+                "Time": 28.636607885360718, 
+                "Coverage": 0.22918, 
+                "RMSE": 1.0935239209125263
+            }, 
+            {
+                "Minimum Similarity": 0.75, 
+                "Time": 27.573474884033203, 
+                "Coverage": 0.00528, 
+                "RMSE": 0.5935256753272998
+            }
+        ], 
+        "neighborhood_size": [
+            {
+                "Neighborhood Size": 50, 
+                "Time": 40.277689933776855, 
+                "Coverage": 0.98782, 
+                "RMSE": 1.006867527916647
+            }, 
+            {
+                "Neighborhood Size": 100, 
+                "Time": 56.36754107475281, 
+                "Coverage": 0.9939, 
+                "RMSE": 1.001015611873184
+            }, 
+            {
+                "Neighborhood Size": 150, 
+                "Time": 72.9004020690918, 
+                "Coverage": 0.9956, 
+                "RMSE": 1.0021289971589034
+            }, 
+            {
+                "Neighborhood Size": 200, 
+                "Time": 90.09925317764282, 
+                "Coverage": 0.99664, 
+                "RMSE": 1.0043835303161026
+            }, 
+            {
+                "Neighborhood Size": 250, 
+                "Time": 106.974191904068, 
+                "Coverage": 0.9972, 
+                "RMSE": 1.0058699757087226
+            }
+        ]
+    }, 
+    "Cosin": {
+        "minimum_similarity": [
+            {
+                "Time": 185.97604298591614, 
+                "Coverage": 0.99859, 
+                "RMSE": 1.0205926320022534
+            }, 
+            {
+                "Minimum Similarity": 0.15, 
+                "Time": 120.17165493965149, 
+                "Coverage": 0.99807, 
+                "RMSE": 1.0148174308961062
+            }, 
+            {
+                "Minimum Similarity": 0.3, 
+                "Time": 64.90761494636536, 
+                "Coverage": 0.98342, 
+                "RMSE": 1.010468383989095
+            }, 
+            {
+                "Minimum Similarity": 0.44999999999999996, 
+                "Time": 35.31839895248413, 
+                "Coverage": 0.79649, 
+                "RMSE": 1.0225059410174564
+            }, 
+            {
+                "Minimum Similarity": 0.6, 
+                "Time": 25.781272888183594, 
+                "Coverage": 0.22918, 
+                "RMSE": 1.0934768790562222
+            }, 
+            {
+                "Minimum Similarity": 0.75, 
+                "Time": 24.91050887107849, 
+                "Coverage": 0.00528, 
+                "RMSE": 0.5935256753272998
+            }
+        ], 
+        "neighborhood_size": [
+            {
+                "Neighborhood Size": 50, 
+                "Time": 29.636653900146484, 
+                "Coverage": 0.99871, 
+                "RMSE": 0.9893286483947792
+            }, 
+            {
+                "Neighborhood Size": 100, 
+                "Time": 33.62594509124756, 
+                "Coverage": 0.99981, 
+                "RMSE": 0.9874222568168575
+            }, 
+            {
+                "Neighborhood Size": 150, 
+                "Time": 37.41413617134094, 
+                "Coverage": 0.99998, 
+                "RMSE": 0.9914230188188519
+            }, 
+            {
+                "Neighborhood Size": 200, 
+                "Time": 38.30426096916199, 
+                "Coverage": 1.0, 
+                "RMSE": 0.9943825572327477
+            }, 
+            {
+                "Neighborhood Size": 250, 
+                "Time": 38.65082883834839, 
+                "Coverage": 1.0, 
+                "RMSE": 0.9966081632159658
+            }
+        ]
+    }, 
+    "Resnick_Pear": {
+        "minimum_similarity": [
+            {
+                "Time": 245.98341488838196, 
+                "Coverage": 0.99788, 
+                "RMSE": 0.9058493136222242
+            }, 
+            {
+                "Minimum Similarity": 0.15, 
+                "Time": 186.97376585006714, 
+                "Coverage": 0.99624, 
+                "RMSE": 0.8909993502275629
+            }, 
+            {
+                "Minimum Similarity": 0.3, 
+                "Time": 119.48892092704773, 
+                "Coverage": 0.98299, 
+                "RMSE": 0.8562400253135161
+            }, 
+            {
+                "Minimum Similarity": 0.44999999999999996, 
+                "Time": 71.98882794380188, 
+                "Coverage": 0.88589, 
+                "RMSE": 0.836972099761809
+            }, 
+            {
+                "Minimum Similarity": 0.6, 
+                "Time": 48.57369589805603, 
+                "Coverage": 0.58989, 
+                "RMSE": 0.808636632612926
+            }, 
+            {
+                "Minimum Similarity": 0.75, 
+                "Time": 38.84303092956543, 
+                "Coverage": 0.31654, 
+                "RMSE": 0.7431027419690226
+            }, 
+            {
+                "Minimum Similarity": 0.9, 
+                "Time": 32.40725612640381, 
+                "Coverage": 0.13819, 
+                "RMSE": 0.7365509644865293
+            }
+        ], 
+        "neighborhood_size": [
+            {
+                "Neighborhood Size": 50, 
+                "Time": 40.74214696884155, 
+                "Coverage": 0.63017, 
+                "RMSE": 0.8351291768273619
+            }, 
+            {
+                "Neighborhood Size": 100, 
+                "Time": 58.09241795539856, 
+                "Coverage": 0.88777, 
+                "RMSE": 0.8425219326040035
+            }, 
+            {
+                "Neighborhood Size": 150, 
+                "Time": 75.49910092353821, 
+                "Coverage": 0.95963, 
+                "RMSE": 0.8343961711968567
+            }, 
+            {
+                "Neighborhood Size": 200, 
+                "Time": 92.94918513298035, 
+                "Coverage": 0.98119, 
+                "RMSE": 0.8446671060096538
+            }, 
+            {
+                "Neighborhood Size": 250, 
+                "Time": 110.39502596855164, 
+                "Coverage": 0.98928, 
+                "RMSE": 0.8580709082655226
+            }
+        ]
+    }, 
+    "Pearsons": {
+        "minimum_similarity": [
+            {
+                "Time": 115.49104905128479, 
+                "Coverage": 0.99788, 
+                "RMSE": 0.9623570262169853
+            }, 
+            {
+                "Minimum Similarity": 0.15, 
+                "Time": 101.16263484954834, 
+                "Coverage": 0.99624, 
+                "RMSE": 0.9204458143745099
+            }, 
+            {
+                "Minimum Similarity": 0.3, 
+                "Time": 77.71964979171753, 
+                "Coverage": 0.98299, 
+                "RMSE": 0.870516641331203
+            }, 
+            {
+                "Minimum Similarity": 0.44999999999999996, 
+                "Time": 54.791029930114746, 
+                "Coverage": 0.88589, 
+                "RMSE": 0.8436295262353845
+            }, 
+            {
+                "Minimum Similarity": 0.6, 
+                "Time": 41.071836948394775, 
+                "Coverage": 0.58989, 
+                "RMSE": 0.8118205739667913
+            }, 
+            {
+                "Minimum Similarity": 0.75, 
+                "Time": 33.21283197402954, 
+                "Coverage": 0.31654, 
+                "RMSE": 0.7438416461697068
+            }, 
+            {
+                "Minimum Similarity": 0.9, 
+                "Time": 29.12228798866272, 
+                "Coverage": 0.13819, 
+                "RMSE": 0.7366117068225173
+            }
+        ], 
+        "neighborhood_size": [
+            {
+                "Neighborhood Size": 50, 
+                "Time": 29.961496114730835, 
+                "Coverage": 0.75116, 
+                "RMSE": 0.8765907329568557
+            }, 
+            {
+                "Neighborhood Size": 100, 
+                "Time": 35.04082489013672, 
+                "Coverage": 0.9848, 
+                "RMSE": 0.8792161093050109
+            }, 
+            {
+                "Neighborhood Size": 150, 
+                "Time": 39.17313504219055, 
+                "Coverage": 0.99961, 
+                "RMSE": 0.9041989201052171
+            }, 
+            {
+                "Neighborhood Size": 200, 
+                "Time": 40.651671171188354, 
+                "Coverage": 1.0, 
+                "RMSE": 0.9382122189766038
+            }, 
+            {
+                "Neighborhood Size": 250, 
+                "Time": 40.651942014694214, 
+                "Coverage": 1.0, 
+                "RMSE": 0.9610091398256427
+            }
+        ]
+    }
+}
