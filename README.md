@@ -1,3 +1,4 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <h1 id="user-based-collaborative-filtering-system">User-Based Collaborative Filtering System</h1>
 <p>As the title implies, this project is a user-based collaborative filtering system created for generating predictions for the <a href="https://grouplens.org/datasets/movielens/100k/">Movie Lens</a> 100k dataset originally developed for the <a href="https://grouplens.org/datasets/movielens/100k/">University of Minnesota</a>. The main goals were to: understand the dataset through simple metrics, make efficient predictions, evaluation prediction performance, and run a variety of large scale experiments.</p>
 
