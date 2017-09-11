@@ -24,11 +24,13 @@ Leave-One-Out (L1O) testing involves taking a rating in your dataset, running a 
 
 ### Measuring Accuracy with Root Means Squared Error
 Root means squared error (RMSE) is the primary metric in which the accuracy of a prediction technique. It takes the root mean of all of the prediction accuracies and then squares it to ensure the result is a positive number.
+
 ![RMSE](Equasions/RMSE.png)
 <!-- $$ |\overline{E}|=\frac{\displaystyle\sum_{i=1}^{N}|p_i-r_i|^2}{N} $$  -->
 
 ### Measuring Coverage
 Coverage is the amount of ratings possible when using a certain set of parameters within a prediction technique. For example, Mean item Rating uses all available ratings to create it's prediction so it can always generate a prediction, but later we will see the use of minimum similarity neighborhoods, in which there are cases where a prediction isn't possible. I calculated coverage with the equation below. 
+
 ![Coverage](Equasions/Coverage.png)
 <!-- $$ Coverage(data)=\frac{\displaystyle\sum_{item\in data}canRate(item)}{|data|} $$ -->
 
@@ -37,8 +39,10 @@ Efficiency is a measure of how fast a prediction technique takes to calculate. T
 
 
 ## Baseline Prediction with Mean Item Rating
+
 ![Mean Item Rating](Equasions/Mean Item Rating.png)
 <!-- $$ prediction(u_i, item_k) = \displaystyle\sum_{u_j\in users} rating(u_j, item_k) $$ -->
+
 Mean item rating simply takes the average rating of an item and uses that as a prediction. This method is incredibly simple to implement, but is also naive because it treats every rating with equal value and didn’t take any other data into consideration. The use of data outside the mean rating is why the other formulas are much more successful.
 
 ## Predictions Using Distance-Based Similarity 
