@@ -1,8 +1,13 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://example.com/MathJax.js?config=TeX-AMS_CHTML">
+</script>
 # User-Based Collaborative Filtering System
 As the title implies, this project is a user-based collaborative filtering system created for generating predictions for the [Movie Lens](https://grouplens.org/datasets/movielens/100k/) 100k dataset originally developed for the [University of Minnesota](https://grouplens.org/datasets/movielens/100k/). The main goals were to: understand the dataset through simple metrics, make efficient predictions, evaluation prediction performance, and run a variety of large scale experiments. 
 
 ## Data Observations
-- Total number of items: 100,000
 - Unique movies: 943
 - Unique users: 943
 - Average Rating: 3.52986
@@ -13,6 +18,7 @@ As the title implies, this project is a user-based collaborative filtering syste
 	- 3 star ratings: 27,145
 	- 4 star ratings: 34,174
 	- 5 star ratings: 21,201
+	- Total: 100,000
 
 ## Testing
 
