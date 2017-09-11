@@ -94,3 +94,5 @@ Mean item rating simply takes the average rating of an item and uses that as a p
 <p>[Harper and Konstan 2015] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. From ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872</p>
 
 <p>[Resnick, Iacovou, Suchak, Bergstrom, Bergstrom, and Riedl 1994] Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl. 1994. GroupLens: An Open Architecture for Collaborative Filtering of Netnews. From Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work, Chapel Hill, NC: Pages 175-186</p>
+
+<!-- https://www.codecogs.com/latex/eqneditor.php -->
