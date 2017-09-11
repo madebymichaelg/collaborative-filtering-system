@@ -14,6 +14,9 @@ As the title implies, this project is a user-based collaborative filtering syste
 	- 5 star ratings: 21,201
 	- Total: 100,000
 
+### Model Structure
+![Model Diagram](Graphs/Model Diagram.png)
+
 ## Testing
 
 ### Leave-One-Out
