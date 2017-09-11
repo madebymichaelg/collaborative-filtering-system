@@ -4,6 +4,7 @@
 <script type="text/javascript" async
   src="https://example.com/MathJax.js?config=TeX-AMS_CHTML">
 </script>
+<body>
 # User-Based Collaborative Filtering System
 As the title implies, this project is a user-based collaborative filtering system created for generating predictions for the [Movie Lens](https://grouplens.org/datasets/movielens/100k/) 100k dataset originally developed for the [University of Minnesota](https://grouplens.org/datasets/movielens/100k/). The main goals were to: understand the dataset through simple metrics, make efficient predictions, evaluation prediction performance, and run a variety of large scale experiments. 
 
@@ -60,4 +61,4 @@ Our last and most accurate approach was using Resnick’s Prediction Formula. We
 ![Resnick Neighborhood Size with Cosin Nighborhoods](Graphs/Resnick Neighborhood Size with Cosin Nighborhoods.png)
 ![Resnick Neighborhood Size with Pearsons Nighborhoods](Graphs/Resnick Neighborhood Size with Pearsons Nighborhoods.png)
 
-## References[Harper and Konstan 2015] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. From ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872[Resnick, Iacovou, Suchak, Bergstrom, Bergstrom, and Riedl 1994] Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl. 1994. GroupLens: An Open Architecture for Collaborative Filtering of Netnews. From Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work, Chapel Hill, NC: Pages 175-186
+## References[Harper and Konstan 2015] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. From ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872[Resnick, Iacovou, Suchak, Bergstrom, Bergstrom, and Riedl 1994] Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl. 1994. GroupLens: An Open Architecture for Collaborative Filtering of Netnews. From Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work, Chapel Hill, NC: Pages 175-186</body>
