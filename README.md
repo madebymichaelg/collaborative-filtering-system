@@ -1,10 +1,3 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" async
-  src="https://example.com/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-<body>
 # User-Based Collaborative Filtering System
 As the title implies, this project is a user-based collaborative filtering system created for generating predictions for the [Movie Lens](https://grouplens.org/datasets/movielens/100k/) 100k dataset originally developed for the [University of Minnesota](https://grouplens.org/datasets/movielens/100k/). The main goals were to: understand the dataset through simple metrics, make efficient predictions, evaluation prediction performance, and run a variety of large scale experiments. 
 
@@ -33,7 +26,7 @@ $$ |\overline{E}|=\frac{\displaystyle\sum_{i=1}^{N}|p_i-r_i|^2}{N} $$
 ### Measuring Coverage
 Coverage is the amount of ratings possible when using a certain set of parameters within a prediction technique. For example, Mean item Rating uses all available ratings to create it's prediction so it can always generate a prediction, but later we will see the use of minimum similarity neighborhoods, in which there are cases where a prediction isn't possible. I calculated coverage with the equation below. 
 
-$$ Coverage(data)=\frac{\displaystyle\sum_{item\in data}canRate(item)}{|data|} $$
+$Coverage(data)=\frac{\displaystyle\sum_{item\in data}canRate(item)}{|data|} $
 
 ### Measuring Efficiency
 Efficiency is a measure of how fast a prediction technique takes to calculate. There is commonly a trade off to be had between efficiency, accuracy, and coverage. In this case, I utilized the [Python Time Library](https://docs.python.org/2/library/time.html) to quantify the efficiency of a technique.
@@ -61,4 +54,4 @@ Our last and most accurate approach was using Resnick’s Prediction Formula. We
 ![Resnick Neighborhood Size with Cosin Nighborhoods](Graphs/Resnick Neighborhood Size with Cosin Nighborhoods.png)
 ![Resnick Neighborhood Size with Pearsons Nighborhoods](Graphs/Resnick Neighborhood Size with Pearsons Nighborhoods.png)
 
-## References[Harper and Konstan 2015] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. From ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872[Resnick, Iacovou, Suchak, Bergstrom, Bergstrom, and Riedl 1994] Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl. 1994. GroupLens: An Open Architecture for Collaborative Filtering of Netnews. From Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work, Chapel Hill, NC: Pages 175-186</body>
+## References[Harper and Konstan 2015] F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. From ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872[Resnick, Iacovou, Suchak, Bergstrom, Bergstrom, and Riedl 1994] Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl. 1994. GroupLens: An Open Architecture for Collaborative Filtering of Netnews. From Proceedings of ACM 1994 Conference on Computer Supported Cooperative Work, Chapel Hill, NC: Pages 175-186
