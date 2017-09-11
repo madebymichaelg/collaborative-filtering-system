@@ -30,13 +30,13 @@
 <h3 id="measuring-accuracy-with-root-means-squared-error">Measuring Accuracy with Root Means Squared Error</h3>
 <p>Root means squared error (RMSE) is the primary metric in which the accuracy of a prediction technique. It takes the root mean of all of the prediction accuracies and then squares it to ensure the result is a positive number.</p>
 
-<p><img src="Equasions/RMSE.png" alt="RMSE" />
+<p><img src="Equasions/RMSE.png" alt="RMSE" style="text-align: center" />
 <!-- $$ |\overline{E}|=\frac{\displaystyle\sum_{i=1}^{N}|p_i-r_i|^2}{N} $$  --></p>
 
 <h3 id="measuring-coverage">Measuring Coverage</h3>
 <p>Coverage is the amount of ratings possible when using a certain set of parameters within a prediction technique. For example, Mean item Rating uses all available ratings to create it’s prediction so it can always generate a prediction, but later we will see the use of minimum similarity neighborhoods, in which there are cases where a prediction isn’t possible. I calculated coverage with the equation below.</p>
 
-<p><img src="Equasions/Coverage.png" alt="Coverage" />
+<p><img src="Equasions/Coverage.png" alt="Coverage" style="text-align: center" />
 <!-- $$ Coverage(data)=\frac{\displaystyle\sum_{item\in data}canRate(item)}{|data|} $$ --></p>
 
 <h3 id="measuring-efficiency">Measuring Efficiency</h3>
@@ -44,7 +44,7 @@
 
 <h2 id="baseline-prediction-with-mean-item-rating">Baseline Prediction with Mean Item Rating</h2>
 
-<p><img src="Equasions/Mean Item Rating.png" alt="Mean Item Rating" />
+<p><img src="Equasions/Mean Item Rating.png" alt="Mean Item Rating" style="text-align: center" />
 <!-- $$ prediction(u_i, item_k) = \displaystyle\sum_{u_j\in users} rating(u_j, item_k) $$ --></p>
 
 <p>Mean item rating simply takes the average rating of an item and uses that as a prediction. This method is incredibly simple to implement, but is also naive because it treats every rating with equal value and didn’t take any other data into consideration. The use of data outside the mean rating is why the other formulas are much more successful.</p>
