@@ -44,18 +44,47 @@ Mean item rating simply takes the average rating of an item and uses that as a p
 
 <p>The first serious approach utilizes Cosine and Pearsons similarity between users to build neighborhoods. From this neighborhood I took the mean item rating of the target movie and use this as my prediction. There are two types of neighborhoods ones created by setting a minimum similarity and ones created by limiting the size of the neighborhood. The neighborhoods constructed with minimum similarity were tested at a minimum of zero similarity all the way to ninety percent similarity, testing in increments of fifteen percent and the neighborhoods constructed with a neighborhood size was tested at values ranging from fifty to two hundred and fifty, testing in increments of fifty users. The outcomes of these tests are seen in the graphs below.</p>
 
-<p><img src="Graphs/Cosine Minimum Similarity.png" alt="Cosine Minimum Similarity" />
-<img src="Graphs/Pearsons Minimum Similarity.png" alt="Pearsons Minimum Similarity" />
-<img src="Graphs/Cosin Neighborhood Size.png" alt="Cosin Neighborhood Size" />
-<img src="Graphs/Pearsons Neighborhood Size.png" alt="Pearsons Neighborhood Size" /></p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Minimum Similarity</th>
+      <th style="text-align: center">Neighborhood Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="Graphs/Cosine Minimum Similarity.png" alt="Cosine Minimum Similarity" /></td>
+      <td style="text-align: center"><img src="Graphs/Cosin Neighborhood Size.png" alt="Cosin Neighborhood Size" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="Graphs/Pearsons Minimum Similarity.png" alt="Pearsons Minimum Similarity" /></td>
+      <td style="text-align: center"><img src="Graphs/Pearsons Neighborhood Size.png" alt="Pearsons Neighborhood Size" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="predictions-using-resnicks-formula">Predictions Using Resnick’s Formula</h2>
 
-<p>Our last and most accurate approach was using Resnick’s Prediction Formula. We used both cosine and Pearsons to calculate similarity metrics and used each of those methods along with neighborhood building with maximum size and minimum similarity. Resnick’s Prediction Formula proved to be very slow in all cases, but capable of producing some of the most accurate results. 
-<img src="Graphs/Resnick Minimum Similarity with Cosin Nighborhoods.png" alt="Resnick Minimum Similarity with Cosin Nighborhoods" />
-<img src="Graphs/Resnick Minimum Similarity with Pearsons Nighborhoods.png" alt="Resnick Minimum Similarity with Pearsons Nighborhoods" />
-<img src="Graphs/Resnick Neighborhood Size with Cosin Nighborhoods.png" alt="Resnick Neighborhood Size with Cosin Nighborhoods" />
-<img src="Graphs/Resnick Neighborhood Size with Pearsons Nighborhoods.png" alt="Resnick Neighborhood Size with Pearsons Nighborhoods" /></p>
+<p>Our last and most accurate approach was using Resnick’s Prediction Formula. We used both cosine and Pearsons to calculate similarity metrics and used each of those methods along with neighborhood building with maximum size and minimum similarity. Resnick’s Prediction Formula proved to be very slow in all cases, but capable of producing some of the most accurate results.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Resnick Minimum Similarity</th>
+      <th style="text-align: center">Resnick Neighborhood Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="Graphs/Resnick Minimum Similarity with Cosin Nighborhoods.png" alt="Resnick Minimum Similarity with Cosin Nighborhoods" /></td>
+      <td style="text-align: center"><img src="Graphs/Resnick Neighborhood Size with Cosin Nighborhoods.png" alt="Resnick Neighborhood Size with Cosin Nighborhoods" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="Graphs/Resnick Minimum Similarity with Pearsons Nighborhoods.png" alt="Resnick Minimum Similarity with Pearsons Nighborhoods" /></td>
+      <td style="text-align: center"><img src="Graphs/Resnick Neighborhood Size with Pearsons Nighborhoods.png" alt="Resnick Neighborhood Size with Pearsons Nighborhoods" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="references">References</h2>
 
